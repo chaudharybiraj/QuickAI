@@ -67,7 +67,7 @@ export const AiToolsData = [
 
 export const dummyTestimonialData = [
     {
-        image: assets.profile_img_1,
+        image: assets.user_group,
         name: 'John Doe',
         title: 'Marketing Director, TechCorp',
         content: 'ContentAI has revolutionized our content workflow. The quality of the articles is outstanding, and it saves us hours of work every week.',

@@ -19,7 +19,7 @@ const AiTools = () => {
         {AiToolsData.map((tool, index)=>(
           
             <div key={index} className='p-8 m-4 max-w-xs rounded-lg bg-[#FDFDFE] shadow-lg border border-gray-100 hover:translate-y-1 transition-all duration-300 cursor-pointer' onClick={()=> user && navigate(tool.path)}>
-                <img src={tool.Icon} alt="" srcset="" />
+                <img src={tool.Icon} alt="" />
                 <tool.Icon className='w-12 h-12 p-3 text-white rounded-xl' style={{background: `linear-gradient(to bottom, ${tool.bg.from}, ${tool.bg.to})`}}/>
               
                 <h3 className='mt-6 mb-6 text-lg ont-semibold'>{tool.title}</h3>
